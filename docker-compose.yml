@@ -1,0 +1,9 @@
+version: '3'
+services:
+  coze2openai:
+    image: coze2openai
+    restart: always
+    ports:
+      - 15150:3000
+    environment:
+      - BOT_ID=xxxx
