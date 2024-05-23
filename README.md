@@ -15,7 +15,7 @@ docker-compose.yml，运行前需要去coze获取指定的机器人ID，登录co
 version: '3'
 services:
   coze2openai:
-    image: coze2openai
+    image: ghcr.io/luler/coze2openaidocker:latest
     restart: always
     ports:
       - 15150:3000
